@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    border: 3px solid red;
+    background-color: #fff;
+    border-color: #e7e7e7;
+    padding: 0px 0px 5px 0px;
+    height: 90px;
+   
+}
+.nav_class{
+    display: flex;
+    justify-content: space-around;
+}
+.new-logo img {
+    height: 50px;
+    margin-top: 10px !important;
+    margin-left: 3rem;
+}
+.navbar-default .navbar-brand img {
+    margin: 0;
+    top: 0;
+}
+.mini_nav{
+    /* border: 1px solid orangered; */
+    display: flex;
+}
+.mini_nav>a{
+    text-decoration: none;   
+}
+.mini_nav>a>p{
+    padding-top: 10px;
+    padding: 1rem 1rem 0rem ;
+    font-size: 15px;
+    line-height:20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #254bb2;
+    vertical-align:baseline;
+    letter-spacing:0.5px;
+    word-spacing:0px;
+    text-decoration: none solid rgb(51, 51, 51);
+    
+}
+.mini_nav>a>p:hover{
+    color: RGB(51, 51, 51);
+}
+.nav-btn{
+    /* border: 1px solid red; */
+    justify-content: center;
+    text-align: center;
+    /* padding-left: 0.4rem;
+    padding-top: 0.3rem; */
+}
+.bit-chng:focus{
+    background-color: #eee;
+    border-bottom-style: outset;
+    border-bottom-style:1px solid blue;
+    color: #606060;
+    
+}
+/* .mini_nav>a:focus, .mini_nav>a:hover {
+    text-decoration: none;
+    
+} */

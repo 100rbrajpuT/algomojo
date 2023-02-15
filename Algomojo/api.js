@@ -7,6 +7,7 @@ bar.forEach(element =>{
 
 
     this.classList.add("active")
+    
   })
 })
 
@@ -28,4 +29,12 @@ bar.forEach(element =>{
 // arrow.style.color = "white"
 // arrow.style.color = "blue"
 // }
+function getfocus() {
+  document.getElementById("myAnchor").focus();
+   console.log("clicked") 
+}
 
+function losefocus() {
+  document.getElementById("myAnchor").blur();
+  console.log("clicked2") 
+}

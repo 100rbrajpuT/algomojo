@@ -49,7 +49,7 @@ body{
     /* margin-top: 4.3rem; */
 }
 .flex_dis> div{
-    /* border: 1px solid rgb(4, 222, 14); */
+    /* border: 1px solid rgb(241, 181, 0); */
     
 }
 .flex_one{
@@ -59,8 +59,6 @@ body{
     margin-top: 4.3rem;
     padding-left: 0px;
     margin-left: 0px;
-    /* border: 10px solid rgb(9, 9, 210); */
-    
 }
 .flex_two{
     height: auto;
@@ -68,13 +66,12 @@ body{
     margin-top: 4.3rem;
     margin-left: 20%;
     padding-left:4%;
-    /* border: 8px solid rgb(12, 14, 12); */
     box-shadow: rgba(62, 65, 73, 0.15) 0px 0px 0px 1px;
 }
 
 
 .arrow-heading{
-       border: 1px solid rgb(234, 197, 13);
+       /* border: 1px solid black; */
        margin: 0rem 3.4rem;
        padding: 0.1rem;
        display: flex;
@@ -104,19 +101,6 @@ body{
     color: RGB(93, 123, 120);
 }
 
-.h5{
-    font-size: 1rem;
-    font-size: 16px;
-    font-family: poppins, sans-serif;
-    line-height: 19.2px;
-    vertical-align:baseline;
-    letter-spacing: normal;
-    word-spacing: 0px;
-    font-weight: 600;
-    font-style: normal;
-    margin:0px 0px 8px;
-    color: RGB(70, 78, 91)
-}
 
 .h2{
     font-size: 1rem;
@@ -137,7 +121,7 @@ body{
 }
 
 .social-list{    
-    border: 1px solid red;
+    /* border: 1px solid red; */
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -186,14 +170,14 @@ body{
     padding-bottom: 50px;
 } */
 #list1{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 100%;
     margin-left: 0;
 }
 
 .slight-right{
     /* padding-left: 50px; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding-left: 50px;
 }
 
@@ -268,5 +252,115 @@ body{
 
 .activa:focus{
     color: rgb(255, 255, 255);
-    border: 4px solid red;
-  }
+    border: 4px solid red;
+}
+.btn-opa {
+      
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    line-height: 1.428571429;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #3f7bd5;
+    border-color: #3f7bd5;
+    font-size: 18px;
+    padding: 11px 28px;
+    transition: 0.2s all ease;
+    text-decoration: none;
+   
+}
+.btn-download{
+    margin-bottom: 15px;
+}
+
+.img1{
+    margin-top:2rem;
+    /* border:3px solid red; */
+    width:60rem;
+}
+.btn-light{
+    /* color: #1e2022; */
+    /* text-align: center; */
+    height:1.5rem;
+    width:12rem;
+    padding: 0.5rem 0.5rem;
+    line-height: 1;
+    border-radius: 0.25rem;
+    transition: all 0.2s ease-in-out;
+    background-color:   hsl(221, 100%, 62%);
+    border-color: #f8f9fa;
+    display: block;
+    text-decoration: dotted;
+    margin-left:1.5rem;
+    text-align:center;
+    margin-top:3rem;     
+}
+.btn-light{
+    background-color: #3f7bd5;
+    color: white;
+}
+.btn-light:hover {
+    box-shadow: 0 4px 11px rgb(248 249 250 / 35%)
+}
+.account{
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    line-height:30px;
+    font-weight: 200; 
+    font-family: sans-serif;
+    color: #f2f6fa;
+    /* line-height: 26px; */
+    /* vertical-align:baseline; */
+    letter-spacing:1px;
+    word-spacing:2px;
+    text-decoration:none;
+    /* padding-bottom:1rem; */
+    margin-bottom:5rem;
+    border:2px solid red;
+}
+.btn-light1{
+    /* color: #1e2022; */
+    /* text-align: center; */
+    height:1.5rem;
+    width:8rem;
+    padding: 0.5rem 0.5rem;
+    line-height: 1;
+    border-radius: 0.25rem;
+    transition: all 0.2s ease-in-out;
+    background-color:   hsl(221, 100%, 62%);
+    border-color: #f8f9fa;
+    display: block;
+    text-decoration: dotted;
+    margin-left:1rem;
+    text-align:center;
+    margin-top:.8rem;     
+}
+.btn-light1:hover {
+    box-shadow: 0 4px 11px rgb(248 249 250 / 35%)
+}
+.account1{
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    line-height:30px;
+    font-weight: 200; 
+    font-family: sans-serif;
+    color: #f2f6fa;
+    line-height: 26px;
+    /* vertical-align:baseline; */
+    letter-spacing:1px;
+    word-spacing:2px;
+    text-decoration:none;
+    /* padding-bottom:1rem; */
+    margin-bottom:5rem;
+    border:4px solid red;
+}
+.here{
+    width:10rem;
+    margin-left:83rem;
+    position:absolute;
+
+}
