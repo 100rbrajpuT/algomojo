@@ -585,3 +585,12 @@ p {
     margin:0px 0px 24px;
     font-weight: 300;
 }
+
+@media screen and (max-width: 900px) {
+    .nav {
+       /* The width is 100%, when the viewport is 800px or smaller */
+      width: 50%;
+       
+     }
+   }
+
