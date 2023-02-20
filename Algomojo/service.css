@@ -8,18 +8,19 @@ html{
 nav{
     /* border: 3px solid red; */
     background-color: #fff;
-    border-color: #e7e7e7;
+    /* border-color: #e7e7e7; */
     padding: 0px 0px 5px 0px;
     height: 90px;
+    width: 100%;
    
 }
 
 .nav_class{
     display: flex;
     justify-content: space-around;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     min-height: 5.3rem;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px; */
     position: fixed;
     width: 100%;
     top: 0;
@@ -83,6 +84,7 @@ nav{
 
 #serv{
     padding-top: 25px;
+    width: 100%;
 }
 #feature{
     padding-top: 25px;
@@ -91,17 +93,18 @@ nav{
     padding-top: 25px;   
 }
 
- #blue{
-    height:30rem;
-    width:100%;
+#blue{
+    border: 1px solid red;
+    margin: 5rem 0px 0px 0px;
+    padding: 0px;
+    /* width:100%; */
     background-image: linear-gradient(to right ,#292c96 , #1d82e4);
-    display:flex;
-    
+    display:flex;   
 }
-.blueh{
-    width:60%;
-   
+#blue>div{
+    width: 50%;
 }
+
 #h1{
     color: #fff;
     font-size: 45px;
@@ -586,11 +589,30 @@ p {
     font-weight: 300;
 }
 
-@media screen and (max-width: 900px) {
-    .nav {
-       /* The width is 100%, when the viewport is 800px or smaller */
-      width: 50%;
-       
+@media screen and (max-width: 990px) {
+    .nav_class{
+       display: block;
+       /* width: 100%; */
      }
+     #blue{
+        flex-direction: column;
+        width: 100%;
+        border: 1px solid red;
+    }
+    .blueh{
+        width:100%;
+        border: 1px solid red;
+        /* margin-left: 200px; */
+       
+    }
+    .btn{
+        display:block;
+        width: 70%;
+     } 
+     #cart{
+        height:100%;
+        /* width:50rem; */
+      
+    }
    }
 
